@@ -13,7 +13,7 @@ namespace mvc_web.Controllers
         {
             Escuela escuela = new Escuela()
             {
-                EscuelaId = Guid.NewGuid().ToString(),
+                UniqueId = Guid.NewGuid().ToString(),
                 Nombre = "Platzi",
                 Fundacion = 2000
             };
